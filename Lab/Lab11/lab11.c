@@ -1,32 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    int num, original, remainder, sum = 0, digits = 0;
+    int n, t, d = 0, s = 0;
     
     printf("ป้อนตัวเลข: ");
-    scanf("%d", &num);
+    scanf("%d", &n);
     
-    original = num;
+    // ลูปนับจำนวนหลัก
+    for (t = n; t; t /= 10) d++;
     
-    for (int temp = num; temp != 0; temp /= 10) {
-        digits++;
+    // ลูปคำนวณผลรวมยกกำลัง
+    for (t = n; t; t /= 10) {
+        int p = 1, r = t % 10;
+        for (int i = 0; i < d; i++) p *= r;
+        s += p;
     }
     
-    for (int temp = num; temp != 0; temp /= 10) {
-        remainder = temp % 10;
-        int power = 1;
-        
-        for (int i = 0; i < digits; i++) {
-            power *= remainder;
-        }
-        sum += power;
-    }
-    
-    if (sum == num) {
-        printf("Pass\n");
-    } else {
-        printf("Not Pass\n");
-    }
-    
+    // ตรวจสอบและแสดงผล
+    printf(s == n ? "Pass\n" : "Not Pass\n");
     return 0;
 }
+
+// n = ตัวเลขที่ผู้ใช้ป้อน
+// t = ตัวแปรชั่วคราวสำหรับคำนวณ
+// d = จำนวนหลัก (digits)
+// s = ผลรวม (sum)
