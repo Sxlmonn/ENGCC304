@@ -24,7 +24,7 @@ int main()
     int n;
 
     // รับค่าจำนวนข้อมูล
-    printf("Enter N :\n");
+    printf("ใส่จำนวนข้อมูล :\n");
     scanf("%d", &n);
 
     int arr[n];
