@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="g1WY-LeKKJIpPG-kmTFl">
+    <mxGraphModel dx="2780" dy="-118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-65" value="เริ่มโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2066" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-65" target="CkeSAW8G-GJdKuXeejbD-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2126" as="sourcePoint" />
+            <mxPoint x="585" y="2176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-67" value="ประกาศตัวแปร days, seconds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2176" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-68" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-67" target="CkeSAW8G-GJdKuXeejbD-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2236" as="sourcePoint" />
+            <mxPoint x="585" y="2286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-69" value="แสดง &quot;Input Days : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2286" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-69" target="CkeSAW8G-GJdKuXeejbD-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2346" as="sourcePoint" />
+            <mxPoint x="585" y="2396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-71" value="รับค่า days ด้วย scanf" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2396" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-71" target="CkeSAW8G-GJdKuXeejbD-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2456" as="sourcePoint" />
+            <mxPoint x="585" y="2506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-73" value="คำนวณ seconds = days × 24 × 60 × 60" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2506" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-74" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-73" target="CkeSAW8G-GJdKuXeejbD-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2566" as="sourcePoint" />
+            <mxPoint x="585" y="2616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-75" value="แสดงผลลัพธ์ days และ seconds" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2616" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-75" target="CkeSAW8G-GJdKuXeejbD-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2676" as="sourcePoint" />
+            <mxPoint x="585" y="2726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-77" value="return 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2726" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-77" target="CkeSAW8G-GJdKuXeejbD-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2786" as="sourcePoint" />
+            <mxPoint x="585" y="2836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-79" value="จบโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2836" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
