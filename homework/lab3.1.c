@@ -1,8 +1,16 @@
 ﻿#include <stdio.h>
 
 int main() {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
-    printf("Answer = %d\n", a + b + c);
+    float height, width, area;
+    
+    printf("H =");
+    scanf("%f", &height);
+    printf("W =");
+    scanf("%f", &width);
+    
+    area = (height * width) / 2;
+    
+    printf("Area = %.1f\n", area);
+    
     return 0;
 }
