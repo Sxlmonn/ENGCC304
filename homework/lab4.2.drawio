@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="g1WY-LeKKJIpPG-kmTFl">
+    <mxGraphModel dx="2780" dy="-118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-80" value="เริ่มโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1736" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-80" target="CkeSAW8G-GJdKuXeejbD-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="1796" as="sourcePoint" />
+            <mxPoint x="585" y="1846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-82" value="ประกาศตัวแปร id[11], hours, rate, salary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1846" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-82" target="CkeSAW8G-GJdKuXeejbD-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="1906" as="sourcePoint" />
+            <mxPoint x="585" y="1956" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-84" value="แสดง &quot;Input the Employees ID(Max. 10 chars):&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1956" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-84" target="CkeSAW8G-GJdKuXeejbD-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2016" as="sourcePoint" />
+            <mxPoint x="585" y="2066" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-86" value="รับค่า id ด้วย scanf" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2066" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-86" target="CkeSAW8G-GJdKuXeejbD-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2126" as="sourcePoint" />
+            <mxPoint x="585" y="2176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-88" value="แสดง &quot;Input the working hrs:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2176" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-88" target="CkeSAW8G-GJdKuXeejbD-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2236" as="sourcePoint" />
+            <mxPoint x="585" y="2286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-90" value="รับค่า hours ด้วย scanf" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2286" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-90" target="CkeSAW8G-GJdKuXeejbD-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2346" as="sourcePoint" />
+            <mxPoint x="585" y="2396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-92" value="แสดง &quot;Salary amount/hr:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2396" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-92" target="CkeSAW8G-GJdKuXeejbD-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2456" as="sourcePoint" />
+            <mxPoint x="585" y="2506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-94" value="รับค่า rate ด้วย scanf" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2506" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-95" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-94" target="CkeSAW8G-GJdKuXeejbD-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2566" as="sourcePoint" />
+            <mxPoint x="585" y="2616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-96" value="คำนวณ salary = hours × rate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2616" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-96" target="CkeSAW8G-GJdKuXeejbD-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2676" as="sourcePoint" />
+            <mxPoint x="585" y="2726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-98" value="แสดง &quot;Expected Output:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2726" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-98" target="CkeSAW8G-GJdKuXeejbD-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2786" as="sourcePoint" />
+            <mxPoint x="585" y="2836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-100" value="แสดง &quot;Employees ID = &quot; และ id" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2836" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-100" target="CkeSAW8G-GJdKuXeejbD-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="2896" as="sourcePoint" />
+            <mxPoint x="585" y="2946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-102" value="แสดง &quot;Salary = U$ &quot; และ salary" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2946" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-102" target="CkeSAW8G-GJdKuXeejbD-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="3006" as="sourcePoint" />
+            <mxPoint x="585" y="3056" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-104" value="return 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3056" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-105" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CkeSAW8G-GJdKuXeejbD-104" target="CkeSAW8G-GJdKuXeejbD-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="3116" as="sourcePoint" />
+            <mxPoint x="585" y="3166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CkeSAW8G-GJdKuXeejbD-106" value="จบโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="3166" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
