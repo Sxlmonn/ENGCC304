@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="ckcfX0NifgF7nCQWIZl0">
+    <mxGraphModel dx="1472" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cbi453OhWdNOQNd5BbBz-1" value="🏁 เริ่มต้นโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-1" target="cbi453OhWdNOQNd5BbBz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="280" as="sourcePoint" />
+            <mxPoint x="575" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-3" value="📦 ประกาศตัวแปร&#xa;a, b, c สำหรับเก็บเลข 3 ตัว" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-3" target="cbi453OhWdNOQNd5BbBz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="400" as="sourcePoint" />
+            <mxPoint x="575" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-5" value="⌨️ รับค่าจากผู้ใช้&#xa;scanf อ่านเลข 3 ตัวเข้า a, b, c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-5" target="cbi453OhWdNOQNd5BbBz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="520" as="sourcePoint" />
+            <mxPoint x="575" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-7" value="🧮 คำนวณผลรวม&#xa;result = a + b + c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-7" target="cbi453OhWdNOQNd5BbBz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="640" as="sourcePoint" />
+            <mxPoint x="575" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-9" value="🖨️ แสดงผลลัพธ์&#xa;printf พิมพ์ Answer = ผลรวม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="690" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-9" target="cbi453OhWdNOQNd5BbBz-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="760" as="sourcePoint" />
+            <mxPoint x="575" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-11" value="⏹️ จบโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
