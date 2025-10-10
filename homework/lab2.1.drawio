@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="ckcfX0NifgF7nCQWIZl0">
+    <mxGraphModel dx="2780" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cbi453OhWdNOQNd5BbBz-33" value="🔄 เริ่มทำงานเครื่องขายน้ำตะพาบลอย" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="710" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-33" target="cbi453OhWdNOQNd5BbBz-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="770" as="sourcePoint" />
+            <mxPoint x="695" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-35" value="📋 แสดงเมนูสินค้า&#xa;• โค้ก 10฿ | น้ำเขียว 12฿&#xa;• อเมริกาโน่ 30฿ | ลาเต้หวานเจี๊ยบ 35฿&#xa;• เมล็ดทานตะวัน 13฿ | ถั่วแปบ 20฿ | จิ้นส้มหมก 15฿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="820" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-35" target="cbi453OhWdNOQNd5BbBz-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="920" as="sourcePoint" />
+            <mxPoint x="695" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-37" value="🛒 ลูกค้าเลือกสินค้า&#xa;• กดปุ่มเลือกสินค้าที่ต้องการ&#xa;• ระบบบันทึกรายการและราคา" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="970" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-37" target="cbi453OhWdNOQNd5BbBz-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="1050" as="sourcePoint" />
+            <mxPoint x="695" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-39" value="📦 ตรวจสอบสต็อกสินค้า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1100" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-39" target="cbi453OhWdNOQNd5BbBz-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="1160" as="sourcePoint" />
+            <mxPoint x="695" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-41" value="สต็อกเพียงพอ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1210" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-42" value="❌ ไม่พอ" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-41" target="cbi453OhWdNOQNd5BbBz-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1250" as="sourcePoint" />
+            <mxPoint x="470" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-43" value="⚠️ แจ้งสินค้าหมด&#xa;และกลับไปแสดงเมนู" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-44" value="✅ พอ" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-41" target="cbi453OhWdNOQNd5BbBz-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="1250" as="sourcePoint" />
+            <mxPoint x="920" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-45" value="🧮 คำนวณยอดรวม&#xa;• รวมราคาสินค้าทั้งหมด&#xa;• แสดงยอดที่ต้องชำระ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-45" target="cbi453OhWdNOQNd5BbBz-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="1270" as="sourcePoint" />
+            <mxPoint x="1020" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-47" value="💰 ลูกค้าใส่เงิน&#xa;• รับเหรียญและธนบัตร&#xa;• บันทึกจำนวนเงินที่ได้รับ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-47" target="cbi453OhWdNOQNd5BbBz-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="1400" as="sourcePoint" />
+            <mxPoint x="1020" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-49" value="เงินเพียงพอชำระ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1450" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-50" value="❌ ไม่พอ" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-49" target="cbi453OhWdNOQNd5BbBz-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="1490" as="sourcePoint" />
+            <mxPoint x="820" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-51" value="⚠️ แจ้งเงินไม่พอ&#xa;• คืนเงินให้ลูกค้า&#xa;• กลับไปแสดงเมนู" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-52" value="✅ พอ" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-49" target="cbi453OhWdNOQNd5BbBz-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="1490" as="sourcePoint" />
+            <mxPoint x="1220" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-53" value="📦 ปล่อยสินค้า&#xa;• ลดสต็อกสินค้า&#xa;• อัพเดทยอดขาย" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-53" target="cbi453OhWdNOQNd5BbBz-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1510" as="sourcePoint" />
+            <mxPoint x="1320" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-55" value="🧾 คำนวณเงินทอน&#xa;• เงินทอน = เงินที่ได้รับ - ยอดชำระ&#xa;• ตรวจสอบเหรียญ/ธนบัตรที่พอทอน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-55" target="cbi453OhWdNOQNd5BbBz-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1640" as="sourcePoint" />
+            <mxPoint x="1320" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-57" value="💵 ทอนเงินลูกค้า&#xa;• จ่ายเหรียญ/ธนบัตรคืน&#xa;• อัพเดทยอดเงินในตู้" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1690" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-57" target="cbi453OhWdNOQNd5BbBz-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1770" as="sourcePoint" />
+            <mxPoint x="1320" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-59" value="🧾 แสดงรายการซื้อ&#xa;• รายการสินค้า&#xa;• ยอดชำระ, เงินทอน&#xa;• ขอบคุณที่ใช้บริการ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1820" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-59" target="cbi453OhWdNOQNd5BbBz-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1900" as="sourcePoint" />
+            <mxPoint x="1320" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-61" value="✅ จบการขาย&#xa;พร้อมรับลูกค้ารายต่อไป" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="1950" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-43" target="cbi453OhWdNOQNd5BbBz-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1270" as="sourcePoint" />
+            <mxPoint x="470" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-51" target="cbi453OhWdNOQNd5BbBz-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1480" as="sourcePoint" />
+            <mxPoint x="470" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbi453OhWdNOQNd5BbBz-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cbi453OhWdNOQNd5BbBz-61" target="cbi453OhWdNOQNd5BbBz-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1195" y="1980" as="sourcePoint" />
+            <mxPoint x="470" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
