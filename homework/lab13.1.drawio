@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="uz9wlCDs_p5_q3hxJscO">
+    <mxGraphModel dx="1491" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-3" target="ZuO-C_jA4lNdzcJUtvXG-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-3" value="แสดง: Enter num1 :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-5" target="ZuO-C_jA4lNdzcJUtvXG-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-5" value="รับ num1 (จำนวนเต็ม)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-7" target="ZuO-C_jA4lNdzcJUtvXG-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-7" value="แสดง: Enter num2 :" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="550" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-9" target="ZuO-C_jA4lNdzcJUtvXG-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-9" value="รับ num2 (จำนวนเต็ม)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="680" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-11" target="ZuO-C_jA4lNdzcJUtvXG-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-11" value="กำหนด ptr1 = &amp;num1&#xa;กำหนด ptr2 = &amp;num2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="810" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-13" target="ZuO-C_jA4lNdzcJUtvXG-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-13" value="แสดง: Before swap : num1, num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="920" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-15" target="ZuO-C_jA4lNdzcJUtvXG-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-15" value="เรียกฟังก์ชัน&#xa;swapNumbers(ptr1, ptr2)" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1050" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-17" target="ZuO-C_jA4lNdzcJUtvXG-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-17" value="แสดง: After swap : num1, num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1190" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-18" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-19" value="ฟังก์ชัน: swapNumbers(a*, b*)" style="text;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="500" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-21" target="ZuO-C_jA4lNdzcJUtvXG-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-21" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="530" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-23" target="ZuO-C_jA4lNdzcJUtvXG-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-23" value="รับตัวชี้ a*, b*" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="610" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-25" target="ZuO-C_jA4lNdzcJUtvXG-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-25" value="temp = *a" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="715" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-27" target="ZuO-C_jA4lNdzcJUtvXG-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-27" value="*a = *b" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="810" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-29" target="ZuO-C_jA4lNdzcJUtvXG-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-29" value="*b = temp" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="910" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-30" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="1000" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuO-C_jA4lNdzcJUtvXG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.551;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZuO-C_jA4lNdzcJUtvXG-1" target="ZuO-C_jA4lNdzcJUtvXG-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

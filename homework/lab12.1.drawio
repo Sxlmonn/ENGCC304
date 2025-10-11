@@ -1,0 +1,474 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="U_mvlSOr6_Lihptzy-nd">
+    <mxGraphModel dx="1491" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-2" target="IV-GAZEomOZSCfdZyOKo-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-4" target="IV-GAZEomOZSCfdZyOKo-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-4" value="ตั้งค่า N=3, M=5, i=0, สร้างอาร์เรย์ students[N]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="680" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-114" target="IV-GAZEomOZSCfdZyOKo-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-6" value="แสดง: Enter the details of N students:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="790" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-9" target="IV-GAZEomOZSCfdZyOKo-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-9" target="IV-GAZEomOZSCfdZyOKo-110" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="985" />
+              <mxPoint x="910" y="2850" />
+              <mxPoint x="670" y="2850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-9" value="i &lt; N ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="945" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-11" target="IV-GAZEomOZSCfdZyOKo-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-11" value="แสดง: Student i+1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1080" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-13" target="IV-GAZEomOZSCfdZyOKo-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-13" value="แสดง: Name:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1210" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-15" target="IV-GAZEomOZSCfdZyOKo-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-15" value="รับ Name → students[i].Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1325" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-17" target="IV-GAZEomOZSCfdZyOKo-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-17" value="แสดง: ID:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1445" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-19" target="IV-GAZEomOZSCfdZyOKo-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-19" value="รับ ID → students[i].ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1565" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-21" target="IV-GAZEomOZSCfdZyOKo-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-21" value="แสดง: Score in Subject 1:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1670" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-23" target="IV-GAZEomOZSCfdZyOKo-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-23" value="รับ ScoreSub1 → students[i].ScoreSub1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1790" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-25" target="IV-GAZEomOZSCfdZyOKo-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-25" value="แสดง: Score in Subject 2:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1900" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-27" target="IV-GAZEomOZSCfdZyOKo-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-27" value="รับ ScoreSub2 → students[i].ScoreSub2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2010" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-29" target="IV-GAZEomOZSCfdZyOKo-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-29" value="แสดง: Score in Subject 3:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2120" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-31" target="IV-GAZEomOZSCfdZyOKo-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-31" value="รับ ScoreSub3 → students[i].ScoreSub3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2220" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-33" target="IV-GAZEomOZSCfdZyOKo-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-33" value="แสดง: Score in Subject 4:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2330" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-35" target="IV-GAZEomOZSCfdZyOKo-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-35" value="รับ ScoreSub4 → students[i].ScoreSub4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2440" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-37" target="IV-GAZEomOZSCfdZyOKo-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-37" value="แสดง: Score in Subject 5:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2560" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-39" target="IV-GAZEomOZSCfdZyOKo-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-39" value="รับ ScoreSub5 → students[i].ScoreSub5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="2660" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-41" target="IV-GAZEomOZSCfdZyOKo-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="2840" />
+              <mxPoint x="500" y="2840" />
+              <mxPoint x="500" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-41" value="i = i + 1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="2770" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-43" target="IV-GAZEomOZSCfdZyOKo-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-43" value="i = 0" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="650" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-46" target="IV-GAZEomOZSCfdZyOKo-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-46" target="IV-GAZEomOZSCfdZyOKo-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="895" />
+              <mxPoint x="1400" y="2480" />
+              <mxPoint x="1170" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-46" value="i &lt; N ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="855" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-48" target="IV-GAZEomOZSCfdZyOKo-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-48" value="แสดง: Student i+1, Name, ID, Scores(1..5)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1040" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-50" target="IV-GAZEomOZSCfdZyOKo-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-50" value="เรียกฟังก์ชัน grade_of(ScoreSub1) → G1" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1190" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-52" target="IV-GAZEomOZSCfdZyOKo-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-52" value="เรียกฟังก์ชัน grade_of(ScoreSub2) → G2" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1350" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-54" target="IV-GAZEomOZSCfdZyOKo-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-54" value="เรียกฟังก์ชัน grade_of(ScoreSub3) → G3" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1505" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-56" target="IV-GAZEomOZSCfdZyOKo-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-56" value="เรียกฟังก์ชัน grade_of(ScoreSub4) → G4" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1670" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-58" target="IV-GAZEomOZSCfdZyOKo-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-58" value="เรียกฟังก์ชัน grade_of(ScoreSub5) → G5" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1830" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-60" target="IV-GAZEomOZSCfdZyOKo-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-60" value="แสดง: Grades = G1 G2 G3 G4 G5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1970" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-62" target="IV-GAZEomOZSCfdZyOKo-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-62" value="sum = S1+S2+S3+S4+S5, avg = sum / M" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="2120" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-64" target="IV-GAZEomOZSCfdZyOKo-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-64" value="แสดง: Average Score = avg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="2250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-66" target="IV-GAZEomOZSCfdZyOKo-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="2460" />
+              <mxPoint x="1040" y="2460" />
+              <mxPoint x="1040" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-66" value="i = i + 1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="2380" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-67" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="2510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-69" target="IV-GAZEomOZSCfdZyOKo-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-69" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="710" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-71" target="IV-GAZEomOZSCfdZyOKo-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-71" value="รับ s (คะแนนรายวิชา)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="790" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-74" target="IV-GAZEomOZSCfdZyOKo-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-9" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-72" connectable="0" vertex="1">
+          <mxGeometry x="-0.0761" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-74" target="IV-GAZEomOZSCfdZyOKo-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-1" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-73" connectable="0" vertex="1">
+          <mxGeometry x="-0.5136" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-74" value="s ≥ 80 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="910" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-76" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-76" value="คืนค่า &quot;A&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="1035" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-79" target="IV-GAZEomOZSCfdZyOKo-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-10" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-77" connectable="0" vertex="1">
+          <mxGeometry x="-0.0975" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-79" target="IV-GAZEomOZSCfdZyOKo-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-2" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-78" connectable="0" vertex="1">
+          <mxGeometry x="-0.3947" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-79" value="s ≥ 75 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1843" y="990" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-81" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-81" value="คืนค่า &quot;B+&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1833" y="1120" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-84" target="IV-GAZEomOZSCfdZyOKo-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-11" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-82" connectable="0" vertex="1">
+          <mxGeometry x="-0.117" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-84" target="IV-GAZEomOZSCfdZyOKo-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-4" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-83" connectable="0" vertex="1">
+          <mxGeometry x="-0.3537" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-84" value="s ≥ 70 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2093" y="1070" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-86" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-86" value="คืนค่า &quot;B&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2083" y="1190" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-89" target="IV-GAZEomOZSCfdZyOKo-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-12" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-87" connectable="0" vertex="1">
+          <mxGeometry x="-0.3753" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-89" target="IV-GAZEomOZSCfdZyOKo-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-5" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-88" connectable="0" vertex="1">
+          <mxGeometry x="-0.3566" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-89" value="s ≥ 65 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2333" y="1150" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-91" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-91" value="คืนค่า &quot;C+&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2323" y="1280" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-94" target="IV-GAZEomOZSCfdZyOKo-96" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-13" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-92" connectable="0" vertex="1">
+          <mxGeometry x="-0.1531" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-94" target="IV-GAZEomOZSCfdZyOKo-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-6" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-93" connectable="0" vertex="1">
+          <mxGeometry x="-0.4212" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-94" value="s ≥ 60 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2543" y="1235" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-96" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-96" value="คืนค่า &quot;C&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2533" y="1365" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-99" target="IV-GAZEomOZSCfdZyOKo-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-14" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-97" connectable="0" vertex="1">
+          <mxGeometry x="-0.3198" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-99" target="IV-GAZEomOZSCfdZyOKo-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-7" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-98" connectable="0" vertex="1">
+          <mxGeometry x="-0.3822" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-99" value="s ≥ 55 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2756" y="1325" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-101" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-101" value="คืนค่า &quot;D+&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2746" y="1455" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-104" target="IV-GAZEomOZSCfdZyOKo-106" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-15" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-102" connectable="0" vertex="1">
+          <mxGeometry x="-0.1809" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-104" target="IV-GAZEomOZSCfdZyOKo-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3173" y="1452.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9x0osoIhnpsWCTXQb7sN-8" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IV-GAZEomOZSCfdZyOKo-103" connectable="0" vertex="1">
+          <mxGeometry x="-0.3402" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-104" value="s ≥ 50 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2983" y="1417.5" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-106" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1715" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-106" value="คืนค่า &quot;D&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2973" y="1547.5" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IV-GAZEomOZSCfdZyOKo-108" target="IV-GAZEomOZSCfdZyOKo-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3318" y="1690" />
+              <mxPoint x="1715" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-108" value="คืนค่า &quot;F&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3220" y="1592.5" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-109" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1730" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-110" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2880" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-112" target="IV-GAZEomOZSCfdZyOKo-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-112" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IV-GAZEomOZSCfdZyOKo-6" target="IV-GAZEomOZSCfdZyOKo-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="850" as="sourcePoint" />
+            <mxPoint x="670" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-114" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="655" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-115" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-116" value="ฟังก์ชัน &lt;code data-start=&quot;1846&quot; data-end=&quot;1859&quot;&gt;grade_of(s)&lt;/code&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="650" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-117" value="ฟังก์ชันลูปแสดงผล + คำนวณค่าเฉลี่ย" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="470" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IV-GAZEomOZSCfdZyOKo-118" value="ฟังก์ชันหลักลูปรับข้อมูลนักเรียนและแสดงผล" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="530" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
